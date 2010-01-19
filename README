@@ -1,0 +1,22 @@
+SudokuSolver
+
+Sudoku Solver represents puzzles as lists of integers equated to the following:
+
+[[AA1, AB1, AC1, AD2, AE2, AF2, AG3, AH3, AI3],
+ [BA1, BB1, BC1, BD2, BE2, BF2, BG3, BH3, BI3],
+ [CA1, CB1, CC1, CD2, CE2, CF2, CG3, CH3, CI3],
+ [DA4, DB4, DC4, DD5, DE5, DF5, DG6, DH6, DI6],
+ [EA4, EB4, EC4, ED5, EE5, EF5, EG6, EH6, EI6],
+ [FA4, FB4, FC4, FD5, FE5, FF5, FG6, FH6, FI6],
+ [GA7, GB7, GC7, GD8, GE8, GF8, GG9, GH9, GI9],
+ [HA7, HB7, HC7, HD8, HE8, HF8, HG9, HH9, HI9],
+ [IA7, IB7, IC7, ID8, IE8, IF8, IG9, IH9, II9]]
+
+Where the first character represents the row (A-I)
+the second character represents the column (A-I)
+and the digit represents the subgrid (1-9).
+
+Pass the puzzle to the sudoku rule (sudoku(L).)
+Then call printsudoku(L). to print the solution.
+
+SudokuSolver doesn't rely on any external modules.
