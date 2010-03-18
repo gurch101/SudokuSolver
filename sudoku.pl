@@ -1,11 +1,4 @@
 /*
-CPSC312 Assignment 5
-Sudoku Solver
-
-Name: Gurchet Rai
-SID: 65055048
-CSID: p7p6
-
 NOTE: ALL tests, including the 3 extra tests, run in a 
 reasonable amount of time (<2 seconds on my machine).
 
